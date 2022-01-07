@@ -1,0 +1,100 @@
+@media screen and (min-width: 600px) {
+    #giftFormCF2 .giftMessageButton{
+        background: white;
+        color: black;
+        min-height: 48px;
+        max-height: 66px;
+        position: absolute;
+        font-size: 14px;
+        min-width: 277px;
+        max-width: 315px;
+        display: flex;
+        justify-content: center;
+        top: 0;
+        text-align: center;
+        padding-top: 13px;
+        border-right: 1px solid rgb(214, 214, 214);
+        border-bottom: 1px solid rgb(214, 214, 214);
+    }
+    #giftFormCF2 .giftMessageButton.closActive{
+        border-right: unset;
+        border-bottom: unset;
+    }
+    #giftFormCF2 .giftMessageButton::before{
+        content: url(https://i.imgur.com/5RPPq8A.png);
+        position: absolute;
+        left: 9px;
+        top: 16px;
+    }
+    #giftFormCF2 .giftMessageButton.closActive::before{
+        content: url(https://i.imgur.com/Ot4NdjU.png);
+    }
+    #giftFormCF2 #giftVideoButton{
+        background: white;
+        color: black;
+        min-height: 48px;
+        position: absolute;
+        font-size: 14px;
+        min-width: 321px;
+        max-width: 331px;
+        top: 0;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        left: 268px;
+        padding-top: 13px;
+        border-right: 1px solid rgb(214, 214, 214);
+        border-bottom: 1px solid rgb(214, 214, 214);
+    }
+    h4#giftVideoButton.closActive{
+            border-right: unset  !important;
+            border-bottom: unset !important;
+    }
+    h4#giftVideoButton::before {
+        content: url(https://i.imgur.com/hRyP487.png);
+        position: absolute;
+        left: 8px;
+        top: 16px;
+    }
+    h4#giftVideoButton.closActive:before {
+        content: url(https://i.imgur.com/nDyW1ry.png);
+    }
+    
+    .closActive{
+        background: black !important;
+        color: white !important;
+    }
+    
+    
+    #giftFormCF2 .MuiAccordionSummary-root{
+        padding: 0px 16px 0px 0px;
+    }
+    
+    #giftFormCF2 .MuiAccordionSummary-content{
+        margin: unset !important;
+    }
+    
+    #giftFormCF2 .MuiCollapse-container.MuiCollapse-hidden form[data-testid='giftMessageVideo']{
+        display: none;
+    }
+    
+    .videoMessage textarea::placeholder{
+        color: black;
+        opacity: 1;
+    }
+    .MuiAccordionSummary-content:not(.Mui-expanded) .closTabButton{
+        border-bottom: unset !important;
+    }
+    
+    
+    }
+    .closVideoAccordionWrapper textarea{
+        background: white;
+    }
+    .closVideoAccordionWrapper textarea:focus{
+        border: unset !important;
+    }
+    .closVideoAccordionWrapper textarea::placeholder{
+        color: black;
+        opacity: 1;
+    }
